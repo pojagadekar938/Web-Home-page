@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellora Shopping</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f5f2;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #fff;
+        }
+
+        header img {
+            width: 200px;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #6b4c3b;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #000;
+        }
+
+        /* HERO */
+        .hero {
+            background: url('Ellora Shopping Website.jpeg') no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: #8b5e3c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        /* CATEGORIES */
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+        }
+
+        .category {
+            background: #fff;
+            padding: 20px;
+            width: 25%;
+            text-align: center;
+            box-shadow: 0 0 10px #ddd;
+        }
+
+        /* PRODUCTS */
+        .products {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .product {
+            background: #fff;
+            padding: 15px;
+            width: 20%;
+            box-shadow: 0 0 10px #ddd;
+        }
+
+        .product img {
+            width: 100%;
+        }
+
+        /* ABOUT */
+        .about {
+            padding: 40px;
+            background: #fff;
+            text-align: center;
+        }
+
+        /* FEEDBACK */
+        .feedback {
+            padding: 40px;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #6b4c3b;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="ELLORA Logo.png" alt="Ellora Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Collections</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <div>
+            <h1>Welcome to Ellora</h1>
+            <p>Discover Elegance in Every Click</p>
+            <button class="btn">Shop Now</button>
+        </div>
+    </div>
+
+    <!-- CATEGORIES -->
+    <div class="categories">
+        <div class="category">
+            <h3>Fashion</h3>
+            <button class="btn">Explore</button>
+        </div>
+
+        <div class="category">
+            <h3>Accessories</h3>
+            <button class="btn">Explore</button>
+        </div>
+
+        <div class="category">
+            <h3>Electronics</h3>
+            <button class="btn">Explore</button>
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="products">
+        <h2>Featured Products</h2>
+
+        <div class="product-list">
+
+            <div class="product">
+                <img src="https://via.placeholder.com/150">
+                <p>Handbag - $120</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://via.placeholder.com/150">
+                <p>Dress - $150</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://via.placeholder.com/150">
+                <p>Smartwatch - $199</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://via.placeholder.com/150">
+                <p>Earbuds - $80</p>
+                <button class="btn">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="about">
+        <h2>About Us</h2>
+        <p>
+            Ellora brings luxury shopping experience with premium quality products.
+            We provide elegance, style, and confidence in every purchase.
+        </p>
+    </div>
+
+    <!-- FEEDBACK -->
+    <div class="feedback">
+        <h2>Feedback</h2>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea placeholder="Your Feedback"></textarea><br>
+        <button class="btn">Submit</button>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Ellora Shopping | Designed by You 💖</p>
+    </footer>
+
+</body>
+</html>
